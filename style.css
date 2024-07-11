@@ -1,16 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 body{
+    width: 1920px;
+    height: 850px;
+}
+header{
     width: 1320px;
-    height: 113px;
+    height: 114px;
     position: relative;
     top: 30px;
-    left: 100px;
+    left: 300px;
     gap: 30px;
     display: flex;
     justify-content: center;
-}
-button{
-    background: #0000;
-    border: none;
 }
 button:hover{
     color: rgb(227, 197, 197);
@@ -32,7 +34,7 @@ button:hover{
   .search-icon{
     top: 4px;
   }
-input[type="search"] {
+  .search-input[type="text"] {
     border: none;
     background: transparent;
     margin: 0;
@@ -53,15 +55,13 @@ input[type="search"] {
     position: relative;
     display: flex;
     top: 4px ;
-    left: 882px;
+    left: 854px;
     gap: 22px;
 }
 .categories{
     width: 1320px;
     height: 24px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 25px;
+    margin-top: 26px;
 }
 .icon-profile{
     display: flex;
@@ -82,6 +82,8 @@ input[type="search"] {
     size: 18px;
     line-height: 21.09px;
     gap: 8px;
+    background-color: transparent;
+    border: none;
 }
 .button-profile{
     display: flex;
@@ -90,14 +92,29 @@ input[type="search"] {
     size: 18px;
     line-height: 21.09px;
     gap: 8px;
+    background-color: transparent;
+    border: none;
 }
 .img-profile{
     width: 25px;
     height: 25px;
 }
-.button-categories{
+.nav-categories{
     font-family: Open Sans;
     font-weight: 400;
     size: 16px;
     line-height: 24px;
+    list-style-type: none;
+    display: inline-block; 
+    margin-right: 28px; 
+}
+.nav-categories>a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 10px  9px;
+}
+.navbar-li{
+    margin: 0;
+    padding: 0;
 }
