@@ -1,0 +1,103 @@
+body{
+    width: 1320px;
+    height: 113px;
+    position: relative;
+    top: 30px;
+    left: 100px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+}
+button{
+    background: #0000;
+    border: none;
+}
+button:hover{
+    color: rgb(227, 197, 197);
+}
+.container-logo{
+    width: 1320px;
+    height: 59px;
+    display: flex;
+    flex-direction: row;
+   
+}
+.search-input {
+    color: #555;
+    display: flex;
+    padding: 2px;
+    width: 25px;
+    height: 25px;
+  }
+  .search-icon{
+    top: 4px;
+  }
+input[type="search"] {
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid transparent;
+    border-radius: inherit;
+  }
+    
+.logo{
+    position: relative;
+    width: 184px;
+    height: 34px;
+    left: 570px;
+}
+.profile-basket{
+    position: relative;
+    display: flex;
+    top: 4px ;
+    left: 882px;
+    gap: 22px;
+}
+.categories{
+    width: 1320px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.icon-profile{
+    display: flex;
+    position: relative;
+    width: 100px;
+    height: 25px;
+}
+.icon-basket{
+    display: flex;
+    position: relative;
+    width: 99px;
+    height: 25px;
+}
+.button-basket{
+    display: flex;
+    font-family: Roboto;
+    font-weight: 400;
+    size: 18px;
+    line-height: 21.09px;
+    gap: 8px;
+}
+.button-profile{
+    display: flex;
+    font-family: Roboto;
+    font-weight: 400;
+    size: 18px;
+    line-height: 21.09px;
+    gap: 8px;
+}
+.img-profile{
+    width: 25px;
+    height: 25px;
+}
+.button-categories{
+    font-family: Open Sans;
+    font-weight: 400;
+    size: 16px;
+    line-height: 24px;
+}
