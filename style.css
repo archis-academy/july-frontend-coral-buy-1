@@ -7,13 +7,11 @@
 }
 body{
     max-width: 1920px;
-    height: 850px;
 }
 .header-nav{
     width: 1320px;
     height: 114px;
-    margin-top: 30px;
-    margin-left: 120px;
+    margin: 30px auto 0 auto;
     gap: 30px;
 }
 .button-profile:hover{
@@ -26,18 +24,18 @@ body{
     width: 1320px;
     height: 59px;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
    
 }
 .search-input {
     color: #555;
     display: flex;
     padding: 2px;
-    width: 25px;
+    width: 78px;
     height: 25px;
   }
   .search-icon{
-    top: 4px;
+    margin: 4px auto 0 auto;
   }
   .search-input[type="text"] {
     border: none;
@@ -49,18 +47,17 @@ body{
     border: 1px solid transparent;
     border-radius: inherit;
   }
+  .search-input:hover{
+    border-color: #0c0606;
+  }
     
 .logo{
-    position: relative;
     width: 184px;
     height: 34px;
-    left: 570px;
 }
 .profile-basket{
-    position: relative;
     display: flex;
-    top: 4px ;
-    left: 854px;
+    justify-content: space-between;
     gap: 22px;
 }
 .navbar{
@@ -69,14 +66,10 @@ body{
     margin-top: 26px;
 }
 .icon-profile{
-    display: flex;
-    position: relative;
     width: 100px;
     height: 25px;
 }
 .icon-basket{
-    display: flex;
-    position: relative;
     width: 99px;
     height: 25px;
 }
@@ -90,6 +83,7 @@ body{
     background-color: transparent;
     border: none;
     cursor: pointer;
+    align-items: center;
 }
 .button-profile{
     display: flex;
@@ -101,6 +95,7 @@ body{
     background-color: transparent;
     border: none;
     cursor: pointer;
+    align-items: center;
 }
 .img-profile{
     width: 25px;
@@ -113,17 +108,12 @@ body{
     line-height: 24px;
     list-style-type: none;
     display: inline-block; 
-    margin-right: 28px; 
+
 }
 .nav-categories>a{
     text-decoration: none;
     color: #000;
-    display: block;
-    padding: 10px  9px;
-}
-.navbar-ul{
-    margin: 0;
-    padding: 0;
+    padding: 23px;
 }
 .nav-categories>a:hover{
     color: rgb(227, 197, 197);
