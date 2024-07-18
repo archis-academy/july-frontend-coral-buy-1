@@ -3,3 +3,31 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+
+.hot-category{
+
+	display: flex;
+	
+	width: 1320px;
+	height: 648px;
+	margin-top: 1122px;
+	margin-left: 300px;
+}
+
+.footages{
+	margin-left: 20px;
+}
+.up-foto{
+	margin-bottom: 20px;
+
+}
+
+.card2{
+	margin-left: 20px;
+}
+
+.card4{
+	margin-left: 20px;
+}
+
