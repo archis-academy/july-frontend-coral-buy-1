@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  --fnt-family-Roboto: "Roboto", sans-serif;
+  --fnt-family-Open-Sans: "Open Sans";
+  --fnt-size-s: 1rem;
+  --fnt-size-md: 2rem;
+  --fnt-size-lr: 3rem;
+  --fnt-clr-white: #ffff;
+  --fnt-clr-secondary: #fe6839;
+  --fnt-clr-primary: #282828;
+  --fnt-weight-100: 500;
+}
