@@ -9,10 +9,10 @@
 
 	display: flex;
 	
-	width: 1320px;
+	width: 1400px;
 	height: 648px;
 	margin-top: 1122px;
-	margin-left: 300px;
+	margin-left: 275px;
 }
 
 .footages{
@@ -29,5 +29,19 @@
 
 .card4{
 	margin-left: 20px;
+}
+
+.rotate-text{
+	font-family: 'Roboto', sans-serif;
+	margin-top: 610px;
+	margin-left: -65px;
+	text-align: center;
+	transform: rotate(-90deg);
+    transform-origin: left top;
+	white-space: nowrap;
+	position: absolute;
+	letter-spacing: 3px;
+	font-weight: lighter;
+	font-size: 27px;
 }
 
