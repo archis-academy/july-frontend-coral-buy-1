@@ -1,5 +1,97 @@
+
 * {
-	margin: 0;
-	padding: 0;
+	margin: 0 ;
 	box-sizing: border-box;
+	font-size: 30px;
+	font: lighter;
+	font-weight: 2px;
+	font-family: 'Roboto' , sans-serif;
+	/*background-color: rgb(238, 237, 236);*/
+}
+
+.main{
+
+	margin-left: 301px;
+	width: 1226px;
+	margin-top: 225px;
+	height: 562px;
+}
+.collection{
+
+	/*font-family: 'Roboto' , sans-serif;*/
+	margin-left: 150px;
+	font-size: 50px;
+	margin-left:100px;
+	width: 360px;
+	height: 55px;
+	top: 299px;
+	left: 301;
+	font: lighter;
+	padding: 50px 10px 100px 10px;
+}
+.h3{
+
+	margin-left: 100px;
+	width: 800px;
+	height: 55px;
+	top: 299px;
+	left: 301;
+	padding: 10px 0px 100px 10px;
+	/*font-family: 'Roboto' , sans-serif;*/
+}
+.btn-shop{
+
+	margin-top: 100px;
+	margin-left: 100px;
+	width: 223px;
+	background: rgb(66, 65, 65);
+	color: white;
+	font-size: 29px;
+	display: flex;	
+	padding: 19px 26px 19px 26px;
+	background-color: #1E2832;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+.person{
+
+	display: flex;
+}
+.collection-text{
+
+	width: 699px;
+	height: 364px;
+}
+.personimg{
+
+	margin-top: -375px;
+	border-radius: 160px 0px 160px 0px;
+	width: 442px;
+	height: 562px;
+	margin-left: 1085px;
+}
+body{
+
+	background-color: #1E28320D;
+}
+.sekil{
+	left:186.16px;
+	width: 132.34px;
+	height: 66.61px;
+	margin-top: 700.62px;
+	color: #000000;
+	transform: rotate(180deg);
+	position: absolute;
+}
+.sekil1{
+	width: 195px;
+	height:  262px;
+	top: 365.8px;
+	left:975px ;
+	transform: rotate(-15deg) ;
+	position: absolute;
+	color: #000000;
+
+
 }
