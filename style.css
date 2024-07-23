@@ -107,3 +107,70 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
+.footer-nav{
+    position: absolute;
+    width: 1920px;
+    height: 355px;
+    top: 5758px;
+    gap: 90px;
+}
+.footer-list{
+    width: 1320px;
+    height: 214px;
+}
+.social-logo{
+    width: 392px;
+    height: 208px;
+    left: 300px;
+    gap: 32px;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21.79px;
+    color: #1E2832BF;
+}
+.logo-footer{
+    width: 180px;
+    height: 34px;
+    margin: 0 0 20px 0 ;
+}
+
+   
+
+   @media (max-width: 992px) {
+    .header-nav {
+       width: 80%; 
+     }
+    .container-logo {
+       width: 80%; 
+     }
+    .navbar {
+       width: 80%;
+     }
+    .search-input {
+       width: 100px;
+     }
+    .profile-basket {
+       width: 100px; 
+     }
+   }
+   
+   
+   @media (max-width: 768px) {
+    .header-nav {
+       width: 70%; 
+     }
+    .container-logo {
+       width: 70%; 
+     }
+    .navbar {
+       width: 70%; 
+     }
+    .search-input {
+       width: 50px;
+     }
+    .profile-basket {
+       width: 50px; 
+    }
+}
