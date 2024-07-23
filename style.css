@@ -11,27 +11,26 @@
 	
 	width: 1400px;
 	height: 648px;
-	margin-top: 1122px;
 	margin-left: 275px;
 }
 
-.footages{
+.hot-category .footages{
 	margin-left: 20px;
 }
-.up-foto{
+.hot-category  .up-foto{
 	margin-bottom: 20px;
 
 }
 
-.card2{
+.hot-category  .card2{
 	margin-left: 20px;
 }
 
-.card4{
+.hot-category  .card4{
 	margin-left: 20px;
 }
 
-.rotate-text{
+.hot-category  .rotate-text{
 	font-family: 'Roboto', sans-serif;
 	margin-top: 610px;
 	margin-left: -65px;
