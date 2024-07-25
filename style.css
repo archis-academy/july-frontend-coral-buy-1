@@ -104,3 +104,140 @@ body {
   display: flex;
   justify-content: space-between;
 }
+/*esra/JU-2-ProductCard-Template-Start*/
+.best-sellers {
+  width: 1320px;
+  height: 114px;
+  margin: 30px auto 0 auto;
+  gap: 30px;
+}
+.bs-title {
+  margin: auto;
+  font-family: Roboto;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 58.59px;
+  text-align: center;
+}
+.bs-categories-list {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.bs-categories-det > a {
+  text-decoration: none;
+  color: #6c6565;
+  margin-left: 40px;
+}
+.bs-all-product > a {
+  text-decoration: none;
+  color: black;
+  margin-left: auto;
+}
+.bs-show-all {
+  margin-left: auto;
+}
+.bs-show-all > a {
+  text-decoration: none;
+  color: white;
+  padding: 2px 5px;
+  background-color: black;
+}
+.bs-product-detail {
+  position: relative;
+  display: flex;
+  width: 1320px;
+  height: 478px;
+  margin: 30px auto 0 auto;
+  gap: 30px;
+}
+.bs-slick-list {
+  max-width: Hug (312px) px;
+  max-height: Hug (478px) px;
+  gap: 18px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.bs-slick-list-select {
+  max-width: Hug (312px) px;
+  max-height: Hug (478px) px;
+  gap: 18px;
+  opacity: 0.4;
+  grid-template-columns: repeat(4, 1fr);
+}
+.bs-top-product {
+  position: relative;
+  display: inline-block;
+}
+.bs-ticket {
+  position: absolute;
+  top: 5%;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  z-index: 1;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16.34px;
+}
+.bs-hot {
+  background-color: red;
+}
+
+.bs-product-img {
+  max-width: 100%;
+  height: auto;
+}
+.bs-slider {
+  position: absolute;
+  margin-top: 170px;
+  z-index: 1;
+}
+.left-slider {
+}
+.right-slider {
+  margin-left: 1270px;
+}
+.bs-product-desciription {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  text-align: left;
+  margin-top: 20px;
+}
+.bs-product-category {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+  display: flex;
+  margin-top: 20px;
+  color: #555;
+  display: inline-block;
+}
+.bs-product-price {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  color: #555;
+  display: inline-block;
+  margin-left: 200px;
+}
+.old-price {
+  text-decoration: line-through;
+  font-size: 14px;
+  margin-left: 135px;
+}
+.new-price {
+  color: red;
+  margin-left: 0px;
+}
+/*esra/JU-2-ProductCard-Template-End*/
