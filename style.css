@@ -107,3 +107,40 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
+@media (max-width: 992px) {
+    .header-nav {
+       width: 80%; 
+     }
+    .container-logo {
+       width: 80%; 
+     }
+    .navbar {
+       width: 80%;
+     }
+    .search-input {
+       width: 100px;
+     }
+    .profile-basket {
+       width: 100px; 
+     }
+   }
+   
+   
+   @media (max-width: 768px) {
+    .header-nav {
+       width: 70%; 
+     }
+    .container-logo {
+       width: 70%; 
+     }
+    .navbar {
+       width: 70%; 
+     }
+    .search-input {
+       width: 50px;
+     }
+    .profile-basket {
+       width: 50px; 
+    }
+}
