@@ -2,45 +2,43 @@
 * {
 	margin: 0 ;
 	box-sizing: border-box;
-	font-size: 30px;
+	/*font-size: 30px;
 	font: lighter;
-	font-weight: 2px;
-	font-family: 'Roboto' , sans-serif;
-	/*background-color: rgb(238, 237, 236);*/
+	font-weight: 2px;*/	
 }
+/*body{
+	background-color: rgb(238, 237, 236);
+}*/
+.herosectionbody{
 
-.main{
+	background-color: rgb(238, 237, 236);
+}
+.hero-section{
 
 	margin-left: 301px;
-	width: 1226px;
-	margin-top: 225px;
-	height: 562px;
+	margin-top: 413px;
+	font-weight: 1920px;
+
 }
 .collection{
-
-	/*font-family: 'Roboto' , sans-serif;*/
-	margin-left: 150px;
-	font-size: 50px;
-	margin-left:100px;
+	font-family: 'Roboto' , sans-serif;
 	width: 360px;
 	height: 55px;
+	font-size: 74px;
 	top: 299px;
 	left: 301;
-	font: lighter;
+	line-height: 55px;
 	padding: 50px 10px 100px 10px;
 }
-.h3{
-
-	margin-left: 100px;
-	width: 800px;
-	height: 55px;
-	top: 299px;
-	left: 301;
+.pararaf{
+	font-family: 'Roboto' , sans-serif;
+	width: 699px;
+	height: 119px;
+	top: 413px;
+	left: 301px;
 	padding: 10px 0px 100px 10px;
-	/*font-family: 'Roboto' , sans-serif;*/
 }
 .btn-shop{
-
 	margin-top: 100px;
 	margin-left: 100px;
 	width: 223px;
@@ -55,43 +53,35 @@
 	align-items: center;
 }
 .person{
-
 	display: flex;
 }
-.collection-text{
+.collection-type{
 
 	width: 699px;
 	height: 364px;
 }
 .personimg{
-
-	margin-top: -375px;
+	margin-top: -350px;
 	border-radius: 160px 0px 160px 0px;
 	width: 442px;
 	height: 562px;
 	margin-left: 1085px;
 }
-body{
 
-	background-color: #1E28320D;
-}
-.sekil{
-	left:186.16px;
+.kucukresim{
 	width: 132.34px;
 	height: 66.61px;
-	margin-top: 700.62px;
-	color: #000000;
-	transform: rotate(180deg);
-	position: absolute;
+	top: 614.62px;
+	left:86.16px;
+	transform: rotate(15deg);
+	/*position: absolute;*/
 }
-.sekil1{
+.buyukresim{
 	width: 195px;
 	height:  262px;
-	top: 365.8px;
-	left:975px ;
+	margin-top: -475.8px;
+	left:2100px ;
 	transform: rotate(-15deg) ;
 	position: absolute;
-	color: #000000;
-
 
 }
