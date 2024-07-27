@@ -107,3 +107,11 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.brand-logo{
+    width: 1320px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin: 938px auto 0 auto;
+    gap: 30px;
+}
