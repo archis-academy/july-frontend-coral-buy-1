@@ -143,4 +143,22 @@ body{
     .profile-basket {
        width: 50px; 
     }
+
+    @media (max-width: 320px) {
+        .header-nav {
+           width: 60%; 
+         }
+        .container-logo {
+           width: 60%; 
+         }
+        .navbar {
+           width: 60%; 
+         }
+        .search-input {
+           width: 50px;
+         }
+        .profile-basket {
+           width: 50px; 
+        }
 }
+   }
