@@ -114,3 +114,36 @@ body{
     justify-content: space-between;
     gap: 30px;
 }
+.brand-logo img {
+    width: 20%; 
+    margin: 10px;
+    object-fit: contain;
+  }
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .brand-logo{
+        width: 30%;
+    }
+    .brand-logo img {
+       width: 50%; 
+     }
+   }
+   
+ 
+   @media (min-width: 768px) and (max-width: 1199px) {
+    .brand-logo{
+        width: 60%;
+    }
+    .brand-logo img {
+       width: 25%; 
+   }
+}
+
+   @media (min-width: 1200px) {
+    .brand-logo{
+        width: 100%;
+    }
+    .brand-logo img {
+       width: 20%; 
+   }
+}
