@@ -107,3 +107,196 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
+.footer-nav{
+  color: #fff;
+  padding: 40px 0;
+}
+.footer-list{
+    width: 1320px;
+    height: 214px;
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+.social-logo{
+    flex-basis: 25%;
+    width: 392px;
+    height: 208px;
+    gap: 32px;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21.79px;
+    color: #1E2832BF;
+}
+
+.socials {
+    width: 208px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    gap: 36px;
+    margin-top: 20px;
+  }
+  .socials img {
+      width: 26px;
+      height: 26px;
+    }
+    .logo-footer{
+        width: 180px;
+        height: 34px;
+        margin-bottom: 20px;
+    }
+    
+    .catalog {
+        flex-basis: 20%;
+        padding: 20px;
+      }
+      
+      .catalog-p {
+        font-weight: 600;
+        width: 74px;
+        height: 22px;
+        line-height: 21.79px;
+        font-size: 16px;
+        margin-bottom: 10px;
+        color: #000000;
+        font-family: Open Sans;
+      }
+      
+      .catalog ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        width: 76px;
+        height: 168px;
+        gap: 12px;
+      }
+      
+      .catalog li {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        font-family: Open Sans;
+        margin-bottom: 10px;
+        color: #1E2832;
+      }
+      .about-us {
+        flex-basis: 20%;
+      }
+      
+      .about-us-p {
+        font-weight: 600;
+        width: 80px;
+        height: 22px;
+        line-height: 21.79px;
+        font-size: 16px;
+        margin-bottom: 10px;
+        color: #000000;
+        font-family: Open Sans;
+      }
+      
+      .about-us ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        width: 130px;
+        height: 168px;
+        gap: 12px;
+      }
+      
+      .about-us li {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        font-family: Open Sans;
+        margin-bottom: 10px;
+        color: #1E2832
+      }
+
+      
+.customer-service {
+    flex-basis: 20%;
+  }
+  
+  .customer {
+    font-weight: 600;
+    width: 162px;
+    height: 22px;
+    line-height: 21.79px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #000000;
+    font-family: Open Sans;
+  }
+  
+  .customer-service ul {
+    list-style: none;
+        padding: 0;
+        margin: 0;
+        width: 144px;
+  }
+  
+  .customer-service li {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        font-family: Open Sans;
+        margin-bottom: 10px;
+        color: #1E2832
+  }
+ 
+  .bottom-footer {
+    background-color: #1E2832;
+    padding: 15px 110px 15px 110px;
+    width: 1920px;
+    height: 52px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 75px;
+    margin: 140px 0 0 0;
+  }
+  
+  .bottom-footer p {
+    flex-basis: 12%;
+    font-size: 14px;
+    width: 138px;
+    height: 22px;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.79px;
+    color: #FFFFFF;
+  }
+  
+  .bottom-footer img {
+    width: 284px;
+    height: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .scrollup-button {
+    background-color: #1E2832;
+    color: #fff;
+    border: none;
+    padding: 5px 15px 5px 15px;
+    gap: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 150px;
+    height: 32px;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.79px;
+  }
+  
+  .scrollup-button img {
+    width: 18px;
+    height: 16px;
+    margin: auto;
+  }
