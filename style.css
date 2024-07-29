@@ -151,7 +151,7 @@ body{
         margin-bottom: 20px;
     }
     
-    catalog {
+    .catalog {
         flex-basis: 20%;
         padding: 20px;
       }
@@ -251,13 +251,14 @@ body{
  
   .bottom-footer {
     background-color: #1E2832;
-    padding: 10px 300px 10px 300px;
+    padding: 15px 110px 15px 110px;
     width: 1920px;
     height: 52px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 75px;
+    margin: 140px 0 0 0;
   }
   
   .bottom-footer p {
@@ -294,11 +295,8 @@ body{
     line-height: 21.79px;
   }
   
-  .scrollup img {
-    width: 16px;
-    height: 14px;
-    margin-left: 10px;
-    font-weight: 900;
-    font-size: 14px;
-    line-height: 14px;
+  .scrollup-button img {
+    width: 18px;
+    height: 16px;
+    margin: auto;
   }
