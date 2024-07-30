@@ -137,6 +137,6 @@ body {
   white-space: nowrap;
   position: absolute;
   letter-spacing: 3px;
-  font-weight: lighter;
+  font-weight: 400;
   font-size: 27px;
 }
