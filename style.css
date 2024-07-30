@@ -121,7 +121,6 @@ body {
   grid-template-areas: 
   "big-left-photo big-left-photo up-photo-left up-photo-right"
   "big-left-photo big-left-photo down-photo-left down-photo-right" ;
-  /*grid-template-columns: 2fr 1fr 1fr;*/
   gap: 25px;
   max-width: 1320px;
   width: 100%;
@@ -131,11 +130,9 @@ body {
 .rotate-text {
   writing-mode: vertical-rl;
   transform: rotate(180deg);
-  /* such as Japanese right to left or Arabic & Hebrew which display right to left & top to bottom (rl-tb). */
   text-transform: uppercase;
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 2.125rem;
-  /* em vs rem */
   font-weight: 400;
   margin-bottom: auto;
   position: absolute;
@@ -146,8 +143,6 @@ body {
 
 .big-left-photo {
   grid-area: big-left-photo;
-  /* grid-row: 1 / span 2; */
-  /* grid-row: 1 / 3 */
   width: 100%;
   height: 100%;
   object-fit: cover;
