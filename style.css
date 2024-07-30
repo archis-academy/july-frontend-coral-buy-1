@@ -104,39 +104,100 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.hot-category {
+
+.hot-category{
   display: flex;
-
-  width: 1400px;
-  height: 648px;
-  margin-left: 275px;
-}
-
-.hot-category .footages {
-  margin-left: 20px;
-}
-.hot-category .up-foto {
-  margin-bottom: 20px;
-}
-
-.hot-category .card2 {
-  margin-left: 20px;
-}
-
-.hot-category .card4 {
-  margin-left: 20px;
-}
-
-.hot-category .rotate-text {
-  font-family: "Roboto", sans-serif;
-  margin-top: 610px;
-  margin-left: -65px;
+  flex-direction: row; 
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  transform: rotate(-90deg);
-  transform-origin: left top;
-  white-space: nowrap;
-  position: absolute;
-  letter-spacing: 3px;
-  font-weight: 400;
-  font-size: 27px;
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
 }
+
+.footages{
+  display: grid;
+  grid-template-areas: 
+  "big-left-photo big-left-photo up-photo-left up-photo-right"
+  "big-left-photo big-left-photo down-photo-left down-photo-right" ;
+  /*grid-template-columns: 2fr 1fr 1fr;*/
+  gap: 25px;
+  max-width: 1320px;
+  width: 100%;
+}
+
+.rotate-text {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  /* such as Japanese right to left or Arabic & Hebrew which display right to left & top to bottom (rl-tb). */
+  text-transform: uppercase;
+  font-family: "roboto", sans-serif;
+  font-size: 2.125rem;
+  /* em vs rem */
+  font-weight: 400;
+  margin-bottom: auto;
+  }
+
+
+.big-left-photo {
+  grid-area: big-left-photo;
+  /* grid-row: 1 / span 2; */
+  /* grid-row: 1 / 3 */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  }
+
+.up-photo-left {
+  grid-area: up-photo-left;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  }
+  .up-photo-right {
+  grid-area:  up-photo-right;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  }
+  .down-photo-left {
+  grid-area: down-photo-left;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  }
+  .down-photo-right{
+  grid-area: down-photo-right;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  }
+  
+  @media (max-width: 1000px) {
+    .footages {
+    grid-template-areas:
+    "big-left-photo big-left-photo "
+    "big-left-photo big-left-photo "
+    "up-photo-left up-photo-right"
+    "down-photo-left down-photo-right";
+    max-width: 90%;
+    }
+    }
+    @media (max-width: 500px) {
+    .footages {
+    grid-template-areas:
+    "big-left-photo"
+    "big-left-photo"
+    "up-photo-left"
+    "up-photo-right"
+    "down-photo-left"
+    "down-photo-right";
+    }
+  }
+    
+
+  
+
+
+
