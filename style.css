@@ -125,6 +125,7 @@ body {
   gap: 25px;
   max-width: 1320px;
   width: 100%;
+  position: relative;
 }
 
 .rotate-text {
@@ -137,6 +138,9 @@ body {
   /* em vs rem */
   font-weight: 400;
   margin-bottom: auto;
+  position: absolute;
+  left: -45px;
+  bottom: 30px;
   }
 
 
