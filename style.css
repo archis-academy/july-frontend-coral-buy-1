@@ -194,6 +194,94 @@ body {
     "down-photo-right";
     }
   }
+
+
+
+  .brandbanner {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  
+  .brandbanner-images {
+    position: relative;
+  }
+  
+  .brandbanner .rectangle {
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+  }
+  
+  .brandbanner .backgroundimg {
+    margin-top: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+  }
+  
+  .brandbanner .zaralogo1 {
+    width: 732px;
+    height: 309px;
+    top: 51px;
+    left: 1244px;
+    gap: 0px;
+    opacity: 0.08px;
+    position: absolute;
+    z-index: 2;
+  }
+  .brandbanner .zaralogo2{
+    width: 191px;
+    height: 81px;
+    top: 233px;
+    left: 1083px;
+    position: absolute;
+    background: transparent ;
+    z-index: 2;
+}
+
+
+.brandbanner .paragraf{
+  color: white;
+  width: 504px;
+  height: 187px;
+  top: 100px;
+  left: 1083px;
+  font-family: 'Roboto' , sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 40px;
+  padding: 9px 9px 9px 9px;
+  margin-top: 300px;
+  display: block;
+  position: absolute;
+  background: transparent ;
+  z-index: 2;
+}
+.productbtn{
+  width: 237px;
+  height: 72px;
+  top:611px;
+  left: 1083px;
+  padding: 19px 26px 19px 26px  ;
+  gap: 8px;
+  background-color: white;
+  position: absolute;
+  font-weight: 400px;
+  font-size: 28px;
+  line-height: 33.98px;
+  font-family: 'Roboto' , sans-serif;
+  z-index: 2;
+}
+
+
     
 
   
