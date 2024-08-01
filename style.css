@@ -108,9 +108,10 @@ body{
     justify-content: space-between;
 }
 .brand-logo{
-    width: 1320px;
+    max-width: 1320px;
     height: 70px;
     display: flex;
     justify-content: space-between;
     gap: 30px;
+    margin-inline: auto;
 }
