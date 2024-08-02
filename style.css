@@ -106,6 +106,7 @@ body{
 .navbar-ul{
     display: flex;
     justify-content: space-between;
+    gap:6px
 }
 
 .hot-category{
@@ -265,3 +266,63 @@ body{
     width: 80px;
   }
 }
+    gap: 6px;
+}
+
+@media (max-width: 1360px) {
+    .navbar {
+       font-weight: 200;
+       gap: 10px;
+     }
+   }
+
+   @media (max-width: 1160px) {
+    .header-nav 
+    .container-logo {
+       width: 80%; 
+     }
+    .navbar {
+       width: 80%;
+       font-weight: 200;
+       gap: 20px;
+     }
+    }
+   
+    @media (max-width: 900px) {
+        .header-nav 
+        .container-logo {
+           width: 80%; 
+         }
+        .nav-categories {
+           width: 80%;
+           font-size: small;
+         }
+        }
+   
+        @media (max-width: 770px) {
+            .header-nav 
+            .container-logo {
+               width: 80%; 
+             }
+             .nav-categories {
+                width: 80%;
+                font-size: medium;
+              }
+           .navbar-ul{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+           }
+            }
+    @media (max-width: 430px) {
+        .container-logo {
+            justify-content: space-between;
+          align-items: center;
+         }
+         .profile-basket{
+            align-items: center;
+            flex-wrap: wrap;
+         }
+}
+   
