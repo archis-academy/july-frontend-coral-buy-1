@@ -197,11 +197,11 @@ body{
     "down-photo-right";
     }
   }
-.brand-logo{
+  .brand-logo{
     max-width: 1320px;
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
+    width: 100%;
     margin-inline: auto;
+    display: flex;
+    padding-block: 40px;
+    justify-content: space-between;
 }
