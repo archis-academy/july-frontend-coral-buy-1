@@ -10,8 +10,8 @@ body{
     max-width: 1920px;
 }
 .header-nav{
-    width: 1320px;
-    height: 114px;
+    max-width: 1320px;
+    width: 100%;
     margin: 30px auto 0 auto;
     gap: 30px;
 }
@@ -22,8 +22,10 @@ body{
     color: rgb(227, 197, 197);
 }
 .container-logo{
-    width: 1320px;
+    max-width: 1320px;
+    width: 100%;
     height: 59px;
+    margin-inline: 30px;
     display: flex;
     justify-content: space-between;
    
@@ -47,9 +49,8 @@ body{
     width: 200px;
 }
 .navbar{
-    width: 1320px;
-    height: 24px;
-    margin-top: 26px;
+    max-width: 1320px;
+    margin-inline: 30px;
 }
 .icon-profile{
     width: 100px;
@@ -106,59 +107,63 @@ body{
 .navbar-ul{
     display: flex;
     justify-content: space-between;
+    gap: 6px;
 }
 
-@media (max-width: 992px) {
-    .header-nav {
-       width: 80%; 
+@media (max-width: 1360px) {
+    .navbar {
+       font-weight: 200;
+       gap: 10px;
      }
+   }
+
+   @media (max-width: 1160px) {
+    .header-nav 
     .container-logo {
        width: 80%; 
      }
     .navbar {
        width: 80%;
+       font-weight: 200;
+       gap: 20px;
      }
-    .search-input {
-       width: 100px;
-     }
-    .profile-basket {
-       width: 100px; 
-     }
-   }
-   
-   
-   @media (max-width: 768px) {
-    .header-nav {
-       width: 70%; 
-     }
-    .container-logo {
-       width: 70%; 
-     }
-    .navbar {
-       width: 70%; 
-     }
-    .search-input {
-       width: 50px;
-     }
-    .profile-basket {
-       width: 50px; 
     }
-
-    @media (max-width: 320px) {
-        .header-nav {
-           width: 60%; 
-         }
+   
+    @media (max-width: 900px) {
+        .header-nav 
         .container-logo {
-           width: 60%; 
+           width: 80%; 
          }
-        .navbar {
-           width: 60%; 
+        .nav-categories {
+           width: 80%;
+           font-size: small;
          }
-        .search-input {
-           width: 50px;
-         }
-        .profile-basket {
-           width: 50px; 
         }
+   
+        @media (max-width: 770px) {
+            .header-nav 
+            .container-logo {
+               width: 80%; 
+             }
+             .nav-categories {
+                width: 80%;
+                font-size: medium;
+              }
+           .navbar-ul{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+           }
+            }
+    @media (max-width: 430px) {
+        .container-logo {
+            justify-content: space-between;
+          align-items: center;
+         }
+         .profile-basket{
+            align-items: center;
+            flex-wrap: wrap;
+         }
 }
-   }
+   
