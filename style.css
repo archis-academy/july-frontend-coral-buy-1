@@ -10,8 +10,8 @@ body{
     max-width: 1920px;
 }
 .header-nav{
-    max-width: 1320px;
-    width: 100%;
+    width: 1320px;
+    height: 114px;
     margin: 30px auto 0 auto;
     gap: 30px;
 }
@@ -22,10 +22,8 @@ body{
     color: rgb(227, 197, 197);
 }
 .container-logo{
-    max-width: 1320px;
-    width: 100%;
+    width: 1320px;
     height: 59px;
-    margin-inline: 30px;
     display: flex;
     justify-content: space-between;
    
@@ -49,8 +47,9 @@ body{
     width: 200px;
 }
 .navbar{
-    max-width: 1320px;
-    margin-inline: 30px;
+    width: 1320px;
+    height: 24px;
+    margin-top: 26px;
 }
 .icon-profile{
     width: 100px;
@@ -107,6 +106,166 @@ body{
 .navbar-ul{
     display: flex;
     justify-content: space-between;
+    gap:6px
+}
+
+.hot-category{
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footages{
+  display: grid;
+  grid-template-areas: 
+  "big-left-photo big-left-photo up-photo-left up-photo-right"
+  "big-left-photo big-left-photo down-photo-left down-photo-right" ;
+  gap: 25px;
+  max-width: 1320px;
+  width: 100%;
+  position: relative;
+}
+
+.rotate-text {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.125rem;
+  font-weight: 400;
+  margin-bottom: auto;
+  position: absolute;
+  left: -45px;
+  bottom: 30px;
+  }
+
+
+.big-left-photo {
+  grid-area: big-left-photo;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  }
+
+.up-photo-left {
+  grid-area: up-photo-left;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  }
+  .up-photo-right {
+  grid-area:  up-photo-right;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  }
+  .down-photo-left {
+  grid-area: down-photo-left;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  }
+  .down-photo-right{
+  grid-area: down-photo-right;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  }
+  
+  @media (max-width: 1000px) {
+    .footages {
+    grid-template-areas:
+    "big-left-photo big-left-photo "
+    "big-left-photo big-left-photo "
+    "up-photo-left up-photo-right"
+    "down-photo-left down-photo-right";
+    max-width: 90%;
+    }
+    }
+    @media (max-width: 500px) {
+    .footages {
+    grid-template-areas:
+    "big-left-photo"
+    "big-left-photo"
+    "up-photo-left"
+    "up-photo-right"
+    "down-photo-left"
+    "down-photo-right";
+    }
+  }
+  .brand-logo{
+    max-width: 1320px;
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 1370px) {
+  .brand-logo img {
+    width: 170px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .brand-logo img {
+    width: 140px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .brand-logo{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .brand-logo img {
+    width: 180px;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .brand-logo{
+    gap: 20px;
+  }
+  .brand-logo img {
+    width: 140px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .brand-logo{
+    padding-inline: 10px;
+    gap: 20px;
+  }
+  .brand-logo img {
+    width: 120px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .brand-logo{
+    padding-inline: 10px;
+    gap: 20px;
+  }
+  .brand-logo img {
+    width: 100px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .brand-logo{
+    padding-inline: 10px;
+    gap: 20px;
+  }
+  .brand-logo img {
+    width: 80px;
+  }
+}
     gap: 6px;
 }
 
