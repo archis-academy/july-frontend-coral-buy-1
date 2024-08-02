@@ -202,6 +202,66 @@ body{
     width: 100%;
     margin-inline: auto;
     display: flex;
-    padding-block: 40px;
     justify-content: space-between;
+}
+
+@media only screen and (max-width: 1370px) {
+  .brand-logo img {
+    width: 170px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .brand-logo img {
+    width: 140px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .brand-logo{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .brand-logo img {
+    width: 180px;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .brand-logo{
+    gap: 20px;
+  }
+  .brand-logo img {
+    width: 140px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .brand-logo{
+    padding-inline: 10px;
+    gap: 20px;
+  }
+  .brand-logo img {
+    width: 120px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .brand-logo{
+    padding-inline: 10px;
+    gap: 20px;
+  }
+  .brand-logo img {
+    width: 100px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .brand-logo{
+    padding-inline: 10px;
+    gap: 20px;
+  }
+  .brand-logo img {
+    width: 80px;
+  }
 }
