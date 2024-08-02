@@ -113,8 +113,6 @@ body{
   padding: 40px 0;
 }
 .footer-list{
-    width: 1320px;
-    height: 214px;
     display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -122,20 +120,18 @@ body{
   margin: 0 auto;
 }
 .social-logo{
-    flex-basis: 25%;
-    width: 392px;
-    height: 208px;
-    gap: 32px;
+    gap: 3px;
     font-family: Open Sans;
     font-weight: 400;
     font-size: 14px;
     line-height: 21.79px;
     color: #1E2832BF;
+    display: flex;
+  flex-direction: column;
 }
 
 .socials {
-    width: 208px;
-    height: 24px;
+    max-width: 208px;
     display: flex;
     justify-content: space-between;
     gap: 36px;
@@ -153,7 +149,6 @@ body{
     
     .catalog {
         flex-basis: 20%;
-        padding: 20px;
       }
       
       .catalog-p {
@@ -164,7 +159,7 @@ body{
         font-size: 16px;
         margin-bottom: 10px;
         color: #000000;
-        font-family: Open Sans;
+        font-family: "Open Sans", sans-serif;
       }
       
       .catalog ul {
@@ -180,7 +175,7 @@ body{
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
-        font-family: Open Sans;
+        font-family: "Open Sans",sans-serif;
         margin-bottom: 10px;
         color: #1E2832;
       }
@@ -196,7 +191,7 @@ body{
         font-size: 16px;
         margin-bottom: 10px;
         color: #000000;
-        font-family: Open Sans;
+        font-family: "Open Sans", sans-serif;
       }
       
       .about-us ul {
@@ -212,7 +207,7 @@ body{
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
-        font-family: Open Sans;
+        font-family: "Open Sans",sans-serif;
         margin-bottom: 10px;
         color: #1E2832
       }
@@ -230,7 +225,7 @@ body{
     font-size: 16px;
     margin-bottom: 10px;
     color: #000000;
-    font-family: Open Sans;
+    font-family: "Open Sans" ,sans-serif;
   }
   
   .customer-service ul {
@@ -244,7 +239,7 @@ body{
     font-weight: 400;
         font-size: 14px;
         line-height: 24px;
-        font-family: Open Sans;
+        font-family: "Open Sans", sans-serif;
         margin-bottom: 10px;
         color: #1E2832
   }
@@ -252,7 +247,7 @@ body{
   .bottom-footer {
     background-color: #1E2832;
     padding: 15px 110px 15px 110px;
-    width: 1920px;
+    max-width: 1920px;
     height: 52px;
     display: flex;
     flex-wrap: wrap;
@@ -266,7 +261,7 @@ body{
     font-size: 14px;
     width: 138px;
     height: 22px;
-    font-family: Open Sans;
+    font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 21.79px;
@@ -289,10 +284,13 @@ body{
     cursor: pointer;
     width: 150px;
     height: 32px;
-    font-family: Open Sans;
+    font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 21.79px;
+  }
+  .social-logo p {
+    max-width: 35ch;
   }
   
   .scrollup-button img {
